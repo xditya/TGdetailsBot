@@ -13,7 +13,7 @@ bot.use(composer);
 
 bot.start({
   drop_pending_updates: true,
-  allowed_updates: ["message"],
+  allowed_updates: ["message", "callback_query"],
 });
 
 Deno.addSignalListener("SIGINT", () => bot.stop());

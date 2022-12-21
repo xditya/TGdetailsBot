@@ -26,6 +26,8 @@ composer.on("msg:text").filter(
           );
         } catch (e) {
           console.error(e);
+          await ctx.reply("Something went wrong!");
+          return;
         }
       }
       await ctx.api.editMessageText(
