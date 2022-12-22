@@ -12,7 +12,7 @@ composer.callbackQuery("help", async (ctx) => {
 That's it!
 
 <b>Deleting the Clone:</b>
-1. Go to @BotFather.
+1. Go to @BotFather and select your bot.
 2. Send <code>/mybots</code>.
 3. Click on "API Token" and revoken token.
 

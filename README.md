@@ -1,14 +1,15 @@
-# CloneBot
+# TGdetailsBot
 
-Template repository for making clone-able telegram bots using
-[grammY](https://grammy.dev) telegram bot library.
+Telegram Bot to get message details (as JSON) as well as chat ID (forwarded channel/user ID).  
+A live instance of this bot can be found on Telegram at [@TGdetailsBot](https://TGdetailsBot.t.me).
+
 
 # Variables
 
 - `BOT_TOKEN` - A telegram bot token (for testing the bot when hosted locally).
 - `WEBHOOK_PATH` - The path to point the webhook domain to, eg: setting it as
-  `CloneBot` would point the webhook to
-  `https://<your-deploy-domain>/CloneBot?token=<token>`.
+  `TGdetailsBot` would point the webhook to
+  `https://<your-deploy-domain>/TGdetailsBot?token=<token>`.
 
 # Setting up
 
