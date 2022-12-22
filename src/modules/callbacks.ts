@@ -13,7 +13,7 @@ composer.callbackQuery("update", async (ctx) => {
   }
   try {
     await ctx.editMessageText(
-      `<code>${JSON.stringify(context!.update, null, 2) ?? "null"}</code>`,
+      `<code>${JSON.stringify(context!.update, null, 2).substr(0, 1024) ?? "null"}</code>`,
       {
         reply_markup: reply_markup,
         parse_mode: "HTML",
